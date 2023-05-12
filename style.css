@@ -193,3 +193,12 @@ p
     color: #2a7da2;
     font-size: 16px;
 }
+.skills .box
+{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
