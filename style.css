@@ -22,3 +22,15 @@ body
     min-height: 100px;
     background:#fff ;
 }
+.container .left_Side
+{
+    position: relative;
+    background: #003147;
+    padding: 40px;
+}
+.container .right_Side
+{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
