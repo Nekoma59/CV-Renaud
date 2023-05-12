@@ -95,6 +95,11 @@ body
     font-size: 18px;
     color: #03a9f4;
 }
+.contactInfo ul li span
+{
+    color: #fff;
+    font-weight: 300;
+}
 
 .title
 {
