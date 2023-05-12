@@ -109,6 +109,11 @@ body
     color: #03a9f4;
     font-weight: 500;
 }
+.contactInfo.education h4:nth-child(2)
+{
+    color: #fff;
+    font-weight: 500;
+}
 
 .title
 {
