@@ -181,3 +181,9 @@ p
 {
     min-width: 150px;
 }
+.about .box .year_company h5
+{
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 600;
+}
