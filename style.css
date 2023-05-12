@@ -208,3 +208,10 @@ p
     color: #848c99;
     font-weight: 500;
 }
+.skills .box .percent
+{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: #f0f0f0;
+}
