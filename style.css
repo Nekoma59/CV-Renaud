@@ -77,6 +77,18 @@ body
 {
     padding-top: 40px;
 }
+.contactInfo ul
+{
+    position: relative;
+}
+.contactInfo ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
 .title
 {
     color: #fff;
