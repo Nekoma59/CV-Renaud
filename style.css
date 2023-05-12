@@ -171,3 +171,9 @@ p
 {
     color: #333;
 }
+.about .box
+{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
