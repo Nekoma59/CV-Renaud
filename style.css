@@ -156,3 +156,7 @@ body
 {
     margin-bottom: 50px;
 }
+.about:last-child
+{
+    margin-bottom: 0;
+}
