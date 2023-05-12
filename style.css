@@ -114,6 +114,11 @@ body
     color: #fff;
     font-weight: 500;
 }
+.contactInfo.education h4
+{
+    color: #fff;
+    font-weight: 300;
+}
 
 .title
 {
