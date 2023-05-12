@@ -77,6 +77,14 @@ body
 {
     padding-top: 40px;
 }
+.title
+{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
 
 .container .right_Side
 {
