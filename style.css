@@ -215,3 +215,11 @@ p
     height: 10px;
     background: #f0f0f0;
 }
+.skills .box .percent div
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+}
