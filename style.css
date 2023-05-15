@@ -247,5 +247,15 @@ p
     .container
     {
         margin: 10px;
+        grid-template-columns: repeat(1,1fr);
     } 
+    .interest ul
+    {
+        grid-template-columns: repeat(2,1fr); 
+    }
+}
+
+@media (max-width: 600px)
+{
+
 }
