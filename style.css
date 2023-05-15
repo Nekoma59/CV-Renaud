@@ -131,6 +131,7 @@ body
     display: block;
     margin-top: 5px;
 }
+/* Test correction de div en span */
 .contactInfo.language .percent span
 {
     position: absolute;
@@ -139,6 +140,7 @@ body
     height: 100%;
     background: #03a9f4;
 }
+/* Succes */
 
 .title
 {
