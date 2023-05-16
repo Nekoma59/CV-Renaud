@@ -16,6 +16,9 @@ body
     min-height: 100vh;
 }
 /* debut test JS */
+body {
+    transition: 1.5s;
+    }
 .night-toggle
  {
     width: 33px;
@@ -188,7 +191,6 @@ body
     position: relative;
     background: #fff;
     padding: 40px;
-    transition: 1.5s;
 }
 .about
 {
