@@ -284,7 +284,8 @@ p
 }
 
 /* test javascript */
-body {
+.body 
+{
     transition: 1.5s;
     }
     .night-toggle
