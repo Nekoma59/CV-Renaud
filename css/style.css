@@ -183,11 +183,11 @@ p
     flex-direction: row;
     margin: 20px 0;
 }
+/* !!! Changement couleur police fonction JS */
 .about .box .year_company
 {
     min-width: 150px;
 }
-/* !!! Changement couleur police fonction JS */
 .about .box .year_company h5
 {
     text-transform: uppercase;
@@ -209,7 +209,7 @@ p
     justify-content: center;
     align-items: center;
 }
-/* !!!Changment couleur police fonction JS */
+/* !!!Changment couleur */
 .skills .box h4
 {
     text-transform: uppercase;
@@ -283,42 +283,3 @@ p
     }
 }
 
-/* test javascript */
-.body 
-{
-    transition: 1.5s;
-    }
-    .night-toggle
-     {
-    width: 33px;
-    height: 33px;
-    right: 20px;
-    top: 20px;
-    position: absolute;
-    }
-    .night-toggle:hover
-    {
-      cursor:pointer;
-    }
-    .moon 
-    {
-      background-color: transparent;
-      box-shadow: -6px 1px 0 3px #275e8e;
-      border-left:3px solid #27476D;
-      border-radius:50%;
-      width: 20px;
-      height: 20px;
-      margin-left:8px;
-      margin-top:0px;
-      transition: 2s;
-    }
-    .sun 
-    {
-      background-color: #fdd462;
-      box-shadow: 2px 0px 0px 1px #D19C29;
-      border-radius:50%;
-      width: 26px;
-      height: 26px;
-      transition: 2s;
-    }
-    
