@@ -189,7 +189,7 @@ p
 .about .box .year_company h5
 {
     text-transform: uppercase;
-    color: rgb(19, 1, 1);
+    color: black;
     font-weight: 600;
 }
 .about .box .text h4
@@ -210,7 +210,7 @@ p
 .skills .box h4
 {
     text-transform: uppercase;
-    color: #000000;
+    color: black;
     font-weight: 500;
 }
 .skills .box .percent
