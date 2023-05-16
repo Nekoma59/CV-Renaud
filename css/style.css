@@ -284,7 +284,7 @@ p
 }
 
 /* test javascript */
-.container .right_Side {
+body {
     transition: 1.5s;
     }
     .night-toggle
