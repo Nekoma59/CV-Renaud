@@ -150,7 +150,7 @@ body
     letter-spacing: 1px;
     margin-bottom: 20px;
 }
-
+/* !!!Partie droite background pour fonction JS */
 .container .right_Side
 {
     position: relative;
@@ -172,6 +172,7 @@ body
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+/* !!! Changement couleur police fonction JS */
 p
 {
     color: #333;
@@ -182,6 +183,7 @@ p
     flex-direction: row;
     margin: 20px 0;
 }
+/* !!! Changement couleur police fonction JS */
 .about .box .year_company
 {
     min-width: 150px;
@@ -207,6 +209,7 @@ p
     justify-content: center;
     align-items: center;
 }
+/* !!!Changment couleur police fonction JS */
 .skills .box h4
 {
     text-transform: uppercase;
