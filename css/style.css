@@ -14,11 +14,10 @@ body
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    transition: 1.5s;
 }
 /* debut test JS */
-body {
-    transition: 1.5s;
-    }
+
 .night-toggle
  {
     width: 33px;
@@ -125,6 +124,7 @@ body {
     list-style: none;
     margin: 10px 0;
     cursor: pointer;
+    text-decoration: none;
 }
 .contactInfo ul li .icon
 {
@@ -318,3 +318,22 @@ p
     }
 }
 
+/* link non visité */
+a:link {
+    color: #fff;
+  }
+  
+  /* link visité */
+  a:visited {
+    color: #fff;
+  }
+  
+  /* link hover */
+  a:hover {
+    color: #fff;
+  }
+  
+  /* lien click */
+  a:active {
+    color: #fff;
+  }
