@@ -14,7 +14,6 @@ body
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    transition: 1.5s;
 }
 /* debut test JS */
 
@@ -191,6 +190,7 @@ body
     position: relative;
     background: #fff;
     padding: 40px;
+    transition: 1.5s;
 }
 .about
 {
