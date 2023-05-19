@@ -15,39 +15,56 @@ body
     align-items: center;
     min-height: 100vh;
 }
-/* debut test JS */
+/* === DARK MODE === */
+.toggle {
+    padding: 2rem;
+    display: flex;
+    flex-direction: row-reverse;
+}
 
-.night-toggle
- {
-    width: 33px;
-    height: 33px;
-    right: 20px;
-    top: 20px;
+.label {
+    height: 30px;
+    width: 55px;
+    background: lightgray;
+    padding: 5px 8px;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    transform: scale(1.2);
+    box-shadow: 2px 1px 1px #333;
+}
+.label .ball {
+    background: #eee;
+    border-radius: 50%;
+    height: 24px;
+    width: 26px;
     position: absolute;
-    }
-    .night-toggle:hover{
-      cursor: pointer;
-    }
-    .moon {
-      background-color: transparent;
-      box-shadow: -6px 1px 0 3px #275e8e;
-      border-left:3px solid #27476D;
-      border-radius:50%;
-      width: 20px;
-      height: 20px;
-      margin-left:8px;
-      margin-top:0px;
-      transition: 2s;
-    }
-    .sun {
-      background-color: #fdd462;
-      box-shadow: 2px 0px 0px 1px #D19C29;
-      border-radius:50%;
-      width: 26px;
-      height: 26px;
-      transition: 2s;
-    }
-    /* fin test JS */
+    left: 4px;
+    transform: translateX(0px);
+    transition: 0.4s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+.checkbox {
+    display: none;
+}
+.checkbox:checked + .label .ball {
+    transform: translateX(21px);
+}
+.bx .bx-moon {
+    color: #000;
+}
+.dark {
+    background: #000;
+    color: #fff;
+}
+
+.container .dark {
+    background: #000;
+    width: 105%;
+    margin: 0;
+}
 .container
 {
     position: relative;
@@ -188,7 +205,7 @@ body
 .container .right_Side
 {
     position: relative;
-    background: #fff;
+    background-color: #fff;
     padding: 40px;
     transition: 1.5s;
 }
