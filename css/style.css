@@ -9,7 +9,7 @@
 }
 body
 {
-    background: lightblue;
+    background-color: lightblue;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -208,6 +208,17 @@ body
     background-color: #fff;
     padding: 40px;
     transition: 1.5s;
+}
+
+body.container .right_Side .darkmode
+{
+    background-color: #333;
+    color: #f0f0f0;
+}
+body.container .right_Side .light
+{
+    background-color: #f1f1f1;
+    color: #000;
 }
 .about
 {
