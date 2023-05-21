@@ -210,12 +210,12 @@ body
     transition: 1.5s;
 }
 
-body.container .right_Side .darkmode
+.container .right_Side.darkmode
 {
     background-color: #333;
     color: #f0f0f0;
 }
-body.container .right_Side .light
+.container .right_Side.light
 {
     background-color: #f1f1f1;
     color: #000;
@@ -236,9 +236,13 @@ body.container .right_Side .light
     margin-bottom: 10px;
 }
 /* !!! Changement couleur police fonction JS */
-p
+.light p
 {
     color: #333;
+}
+.darkmode p
+{
+    color: #fff;
 }
 .about .box
 {

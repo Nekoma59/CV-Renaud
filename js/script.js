@@ -2,17 +2,17 @@ const darkmode = document.getElementById('darkmode');
 
 darkmode.addEventListener('click', () => {
 
-  const body = document.body;
+  const right_Side = document.getElementById('right_Side');
 
-  if(body.classList.contains('darkmode')) {
-    body.classList.add('light')
-    body.classList.remove('darkmode')
-    body.innerHTML = "Go dark"
+  if(right_Side.classList.contains('darkmode')) {
+    right_Side.classList.add('light')
+    right_Side.classList.remove('darkmode')
+    // right_Side.innerHTML = "Go dark"
 
-  } else if (body.classList.contains('light')) {
-    body.classList.add('darkmode')
-    body.classList.remove('light')
-    body.innerHTML = "Go light"
+  } else if (right_Side.classList.contains('light')) {
+    right_Side.classList.add('darkmode')
+    right_Side.classList.remove('light')
+    // right_Side.innerHTML = "Go light"
 
   }
 
