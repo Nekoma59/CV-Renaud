@@ -224,6 +224,18 @@ body
 {
     color: #fff;
 }
+.container .right_Side.darkmode .title2
+{
+    color: #03a9f4;
+}
+.container .right_Side.darkmode .about .box .year_company h5
+{
+    color: #fff;
+}
+.container .right_Side.darkmode .interest ul li
+{
+    color: #fff;
+}
 .about
 {
     margin-bottom: 50px;
