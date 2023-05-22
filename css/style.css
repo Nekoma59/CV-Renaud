@@ -341,6 +341,10 @@ body
 {
     display: grid;
     grid-template-columns: repeat(1,1fr);
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding-left: 400px;
 }
 .download ul li
 {
@@ -348,12 +352,17 @@ body
     color: #333;
     font-weight: 500;
     margin: 10px 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-left: 400px;
 }
 .download ul li .fa
 {
     color: #cc2418;
     font-size: 18px;
     width: 20px;
+   
 }
 /* format responsif */
 @media (max-width: 1000px)
