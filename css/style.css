@@ -164,7 +164,7 @@ body
     color: #03a9f4;
     font-weight: 500;
 }
-.contactInfo.education h5:nth-child(2)
+.contactInfo.education h4:nth-child(2)
 {
     color: #fff;
     font-weight: 500;
@@ -221,11 +221,11 @@ body
     background-color: #f1f1f1;
     color: #000;
 }
-.container .right_Side.darkmode .box h4
+.container .right_Side.darkmode .box h3
 {
     color: #64CFFC;
 }
-.container .right_Side.darkmode .skills .box h4
+.container .right_Side.darkmode .skills .box h3
 {
     color: #fff;
 }
@@ -234,7 +234,7 @@ body
 {
     color: #64CFFC;
 }
-.container .right_Side.darkmode .about .box .year_company h4
+.container .right_Side.darkmode .about .box .year_company h3
 {
     color: #fff;
 }
@@ -277,13 +277,13 @@ body
 {
     min-width: 150px;
 }
-.about .box .year_company h4
+.about .box .year_company h3
 {
     text-transform: uppercase;
     color: black;
     font-weight: 500;
 }
-.about .box .text h4
+.about .box .text h3
 {
     text-transform: uppercase;
     color: #035E8C;
@@ -299,7 +299,7 @@ body
     align-items: center;
 }
 /* !!!Changment couleur */
-.skills .box h4
+.skills .box h3
 {
     text-transform: uppercase;
     color: black;
