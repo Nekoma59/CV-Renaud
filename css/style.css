@@ -207,7 +207,7 @@ body
     position: relative;
     background-color: #fff;
     padding: 40px;
-    transition: 1.5s;
+    transition: 1s;
 }
 
 .container .right_Side.darkmode
@@ -219,6 +219,10 @@ body
 {
     background-color: #f1f1f1;
     color: #000;
+}
+.container .right_Side.darkmode .box h4
+{
+    color: #fff;
 }
 .about
 {
