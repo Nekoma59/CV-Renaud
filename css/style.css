@@ -222,8 +222,13 @@ body
 }
 .container .right_Side.darkmode .box h4
 {
+    color: #03a9f4;
+}
+.container .right_Side.darkmode .skills .box h4
+{
     color: #fff;
 }
+
 .container .right_Side.darkmode .title2
 {
     color: #03a9f4;
@@ -329,6 +334,24 @@ body
 .interest ul li .fa
 {
     color: #03a9f4;
+    font-size: 18px;
+    width: 20px;
+}
+.download ul
+{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.download ul li
+{
+    list-style: none;
+    color: #333;
+    font-weight: 500;
+    margin: 10px 0;
+}
+.download ul li .fa
+{
+    color: #cc2418;
     font-size: 18px;
     width: 20px;
 }
