@@ -159,17 +159,17 @@ body
 {
     margin-bottom: 15px;
 }
-.contactInfo.education h5
+.contactInfo.education h4
 {
     color: #03a9f4;
     font-weight: 500;
 }
-.contactInfo.education h4:nth-child(2)
+.contactInfo.education h5:nth-child(2)
 {
     color: #fff;
     font-weight: 500;
 }
-.contactInfo.education h4
+.contactInfo.education h5
 {
     color: #fff;
     font-weight: 300;
@@ -234,7 +234,7 @@ body
 {
     color: #64CFFC;
 }
-.container .right_Side.darkmode .about .box .year_company h5
+.container .right_Side.darkmode .about .box .year_company h4
 {
     color: #fff;
 }
@@ -277,11 +277,11 @@ body
 {
     min-width: 150px;
 }
-.about .box .year_company h5
+.about .box .year_company h4
 {
     text-transform: uppercase;
     color: black;
-    font-weight: 600;
+    font-weight: 500;
 }
 .about .box .text h4
 {
