@@ -35,6 +35,7 @@ body
     position: relative;
     transform: scale(1.2);
     box-shadow: 2px 1px 1px #333;
+    margin-bottom: 70px;
 }
 .label .ball {
     background: #eee;
@@ -343,7 +344,7 @@ body
     height: 1em;
     font-size: 3.5em;
     size: 30px;
-    position: absolute; right: 65px; bottom: 50px;
+    position: absolute; right: 70px; bottom: 50px;
     cursor: pointer;
     
 }
